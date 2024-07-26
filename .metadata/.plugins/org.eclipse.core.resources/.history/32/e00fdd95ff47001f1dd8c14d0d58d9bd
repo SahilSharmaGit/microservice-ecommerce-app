@@ -1,0 +1,12 @@
+package com.inventory.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Table(name = "t_inventory")
+@Data
+public class Inventory {
+
+}

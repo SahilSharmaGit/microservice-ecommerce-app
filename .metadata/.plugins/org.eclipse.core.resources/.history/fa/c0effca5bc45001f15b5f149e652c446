@@ -1,0 +1,15 @@
+package com.product.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.product.dto.ProductRequest;
+
+@Service
+public class ProductService {
+
+	public void createProduct(@RequestBody ProductRequest product) {
+
+	}
+
+}

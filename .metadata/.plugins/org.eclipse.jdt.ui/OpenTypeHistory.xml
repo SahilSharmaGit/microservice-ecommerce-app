@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=order-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.order.service{OrderService.java[OrderService" modifiers="1" timestamp="1721730802995"/>
+    <typeInfo handle="=order-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.order.config{WebClientConfig.java[WebClientConfig" modifiers="1" timestamp="1721647092594"/>
+    <typeInfo handle="=inventry-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.inventory.controller{InventoryController.java[InventoryController" modifiers="1" timestamp="1721639332801"/>
+    <typeInfo handle="=product-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.product.controller{ProductController.java[ProductController" modifiers="1" timestamp="1721386593421"/>
+    <typeInfo handle="=order-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.order.controller{OrderController.java[OrderController" modifiers="1" timestamp="1721733716851"/>
+    <typeInfo handle="=inventry-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.inventory.service{InventoryService.java[InventoryService" modifiers="1" timestamp="1721730958298"/>
+</typeInfoHistroy>

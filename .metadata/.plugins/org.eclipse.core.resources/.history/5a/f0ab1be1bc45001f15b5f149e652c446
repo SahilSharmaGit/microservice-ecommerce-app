@@ -1,0 +1,20 @@
+package com.product.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.product.dto.ProductRequest;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class ProductService {
+
+	private final ObjectMapper objectMapper;
+
+	public void createProduct(@RequestBody ProductRequest product) {
+	}
+
+}

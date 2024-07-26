@@ -1,0 +1,21 @@
+package com.order;
+
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
+
+import java.util.concurrent.CompletableFuture;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+public class Snippet {
+	private final OrderService orderService;
+
+	@PostMapping
+	@ResponseStatus(HttpStatus.CREATED)
+	public String placeOrder(@RequestBody OrderRequest orderRequest) {
+		log.info("Placing Order");
+		return CompletableFuture.supplyAsync(() -> orderService.placeOrder(orderRequest));
+	}
+}

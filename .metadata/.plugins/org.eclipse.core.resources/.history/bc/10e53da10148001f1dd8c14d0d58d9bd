@@ -1,0 +1,22 @@
+package com.inventory.service;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.inventory.model.Inventory;
+import com.inventory.repository.InventoryRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructorq
+public class InventoryService {
+
+	private final InventoryRepository repository;
+
+	public boolean isInStock(String skuCode) {
+		return repository.findBySkuCode(skuCode).isPresent();
+
+	}
+}
